@@ -1,4 +1,4 @@
-# TI para Sustentabilidade 
+# AIESEC-So Website
 
 Trabalho da disciplina de TI para Sustentabilidade.
 
