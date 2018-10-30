@@ -5,10 +5,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<link rel="stylesheet" href=" <?= base_url("assets/css/bootstrap.css") ?>">
 	<meta charset="utf-8">
-	<title>Welcome to Teste</title>
+	<title>ONGS - AIESEC WebSite</title>
 </head>
 <body>
-	<h1>Welcome to Test!</h1>
+	<h1>ONGS</h1>
 	<table class = "table">
 		<tr>
 			<th>CNPJ</th>
