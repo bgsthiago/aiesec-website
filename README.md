@@ -25,9 +25,10 @@ os voluntários de Sorocaba e os intercâmbistas voluntários.
 
 #### Cronograma:
 
-|Início |Atividade |Matéria | Status|
+|Início |Atividade |Objetivo | Status|
 | ----------------------------------|:----------:| ------------ |:------------:|
 |**(4/10)**|Primeira reunião |conhecer as demandas do comitê local.|Feito| 
-|**(11/10)**|Segunda reunião |concretizar os requisitos.|Espera|
+|**(11/10)**|Segunda reunião |concretizar os requisitos.|Feito|
+|**(29/10)**|Começo do desenvolvimento |finalizar os controllers principais.|Feito|
 
 
