@@ -20,5 +20,33 @@ class Ong extends CI_Controller {
 		$this->load->view("pages/ong/listar", $dados);
 	}
 
+	public function add(){
+		$this->load->view("pages/ong/cadastro");
+	}
+
+	public function salvar(){
+		$ong = array(
+			"cnpj" =>$this->input->post("cnpj"),
+			"nome" =>$this->input->post("nome"),
+			"telefone" =>$this->input->post("telefone")
+		);
+		$this->ong_model->cadastrarOng($ong);
+		//$this->session->set_flashdata("success", "Usuário cadastrado com sucesso!");
+		redirect('CadastrarOng');
+	}
+
+	public function editar($cnpj = NULL){
+		if($id == NULL){
+			redirect('/');
+		}
+		$lista = $this->ong_model->getOngByCnpj($cnpj);
+
+		if($lista == NULL){
+			redirect('/');
+		}
+		$dados = array("ongs" => $lista);
+
+		$this->load->view('editar.php', $dados);
+	}
 
 }

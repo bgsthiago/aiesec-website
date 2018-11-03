@@ -19,4 +19,14 @@ class ong_model extends CI_Model {
 	public function cadastrarOng($ong){
 		$this->db->insert("ong", $ong);
 	}
+
+	public function getOngByCnpj($cnpj = NULL){
+		if($cnpj != NULL):
+			$this->db->where('cnpj', $cnpj);
+			$this->db->limit(1);
+			$query = $this->db->get("ong");
+			return $query->row();
+		//$array = $this->db->get_where("ong", $cnpj)->result_array();
+		endif;
+	}
 }
