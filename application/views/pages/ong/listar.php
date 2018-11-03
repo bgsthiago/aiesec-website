@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<td><?= $ong['nome'] ?></td>
 			<td><?= $ong['telefone'] ?></td>
 			<?php//precisa arrumar isso aqui?>
-			<td><a href="ong/editar/" class="btn btn-primary">Editar</button></td>
+			<td><a href="editar" class="btn btn-primary">Editar</button></td>
 		</tr>
 	<?php endforeach ?>
 
