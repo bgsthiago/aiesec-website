@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 	<h1>Welcome to ONGS!</h1>
-	<a class="btn btn-link" href = "CadastrarOng" >Cadastrar ONGS</a>
+	<a class="btn btn-link" href = "ong/add" >Cadastrar ONGS</a>
   <a class="btn btn-link" href = "ong/listar" >Listar todas as ONGS</a>
 </body>
 </html>

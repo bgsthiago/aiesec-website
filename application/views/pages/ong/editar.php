@@ -5,9 +5,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<link rel="stylesheet" href=" <?= base_url("assets/css/bootstrap.css") ?>">
 	<meta charset="utf-8">
-	<title>Cadastro - ONGS - AIESEC WebSite</title>
+	<title>Atualização - ONGS - AIESEC WebSite</title>
 </head>
-<form action="ong/salvar" method="post">
+<body>
+	<?php
+	echo '<pre>';
+		print_r($ong);
+	echo '<pre>';
+	?>
+<form action="ong/editar" method="post">
   <div class="form-group">
     <label for="cnpj">CNPJ</label>
     <input type="text" class="form-control" name = "cnpj" id="cnpj" placeholder="xx.xxx.xxx/xxxx-xx">
@@ -22,7 +28,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
   <div class="form-group row">
     <div class="col-sm-10">
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Editar</button>
     </div>
   </div>
 </form>
+</body>

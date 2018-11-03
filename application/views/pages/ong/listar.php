@@ -14,12 +14,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<th>CNPJ</th>
 			<th>Nome</th>
 			<th>Telefone</th>
+			<th>Ações</th>
 		</tr>
 		<?php foreach($ongs as $ong) : ?>
 		<tr>
 			<td><?= $ong['cnpj'] ?></td>
 			<td><?= $ong['nome'] ?></td>
 			<td><?= $ong['telefone'] ?></td>
+			<?php//precisa arrumar isso aqui?>
+			<td><a href="ong/editar/" class="btn btn-primary">Editar</button></td>
 		</tr>
 	<?php endforeach ?>
 
