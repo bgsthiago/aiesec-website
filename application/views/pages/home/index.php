@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href=" <?= base_url("assets/css/bootstrap.css") ?>">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<meta charset="utf-8">
 	<title>Welcome to AIESEC Website</title>
 </head>
