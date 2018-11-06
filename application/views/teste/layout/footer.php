@@ -1,10 +1,10 @@
-<!-- Footer section  -->
-<footer class="footer-section set-bg" data-setbg="../../../assets/img/footer-bg.jpg">
+	<!-- Footer section  -->
+	<footer class="footer-section set-bg" data-setbg="assets/img/footer-bg.jpg">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="footer-logo">
-						<img src="../../../../assets/img/logo.png" alt="">
+						<img src="assets/img/logo.png" alt="">
 					</div>
 					<div class="footer-social">
 						<a href="#"><i class="fa fa-pinterest"></i></a>
@@ -33,5 +33,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 	<!-- Footer section end -->
 
+	<!--====== Javascripts & Jquery ======-->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>

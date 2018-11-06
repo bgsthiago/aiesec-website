@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Food Blog - Web Template</title>
+	<title>Fooaaaad Blog - Web Template</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Food Blog Web Template">
 	<meta name="keywords" content="food, unica, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->   
-	<link href="../../../assets/img/favicon.ico" rel="shortcut icon"/>
+	<link href="assets/img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="../../../assets/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<link rel="stylesheet" href="../../../assets/css/owl.carousel.css"/>
-	<link rel="stylesheet" href="../../../assets/css/animate.css"/>
-	<link rel="stylesheet" href="../../../assets/css/style.css"/>
+	<link rel="stylesheet" href="assets/css/owl.carousel.css"/>
+	<link rel="stylesheet" href="assets/css/animate.css"/>
+	<link rel="stylesheet" href="assets/css/style.css"/>
 
 
 	<!--[if lt IE 9]>
@@ -53,7 +53,7 @@
 		<div class="header-bottom">
 			<div class="container">
 				<a href="index.html" class="site-logo">
-					<img src="../../../assets/img/logo.png" alt="">
+					<img src="assets/img/logo.png" alt="">
 				</a>
 				<div class="nav-switch">
 					<i class="fa fa-bars"></i>
@@ -71,4 +71,4 @@
 			</div>
 		</div>
 	</header>
-    <!-- Header section end -->
+	<!-- Header section end -->
