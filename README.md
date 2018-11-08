@@ -3,7 +3,7 @@
 Trabalho da disciplina de TI para Sustentabilidade.
 
 #### Integrantes:
-- Chady Chaito - [@Chaduka](https://github.com/chaduka)
+- Chady Chaito - [@ChadyChaito](https://github.com/chadychaito)
 - Gustavo da Silva Eda - [@EdaProgrammer](https://github.com/EdaProgrammer)
 - Renata Praisler - [@RenataPraisler](https://github.com/RenataPraisler)
 - Thiago Borges da Silva - [@bgsthiago](https://github.com/bgsthiago)
