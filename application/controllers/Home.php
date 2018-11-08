@@ -17,4 +17,8 @@ class Home extends CI_Controller {
 		$this->load->view('teste/pages/index');
 		$this->load->view('teste/layout/footer');
 	}
+
+	public function painel(){
+		$this->load->view('teste/dashboard/index');
+	}
 }
