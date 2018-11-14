@@ -53,6 +53,11 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = true;
 
-$route['teste'] = "home/teste";
+/* Aplicações Temporárias Chady Chaito */
+$route['home'] = "teste/home";
+$route['dashboard'] = "teste/painel";
 
-$route['dashboard'] = "home/painel";
+$route['cadastrar-intercambista'] = "teste/cadastrarIntercambista";
+$route['cadastrar-buddies'] = "teste/cadastrarBuddies";
+$route['cadastrar-ongs'] = "teste/cadastrarOngs";
+$route['cadastrar-pontos'] = "teste/cadastrarPontosTuristicos";
