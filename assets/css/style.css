@@ -233,7 +233,7 @@ ol {
 }
 
 .header-top {
-	background: #ff2a6b;
+	background: #1e90ff;
 	overflow: hidden;
 	padding: 18px 0;
 }
@@ -249,7 +249,7 @@ ol {
 
 .user-panel {
 	float: right;
-	color: #fff;
+	color: #000000;
 	font-size: 14px;
 	font-weight: 600;
 }

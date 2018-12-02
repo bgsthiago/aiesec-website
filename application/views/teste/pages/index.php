@@ -1,9 +1,9 @@
 	<!-- Hero section -->
-	<section class="hero-section">
+	<section id="home" class="hero-section">
 		<div class="hero-slider owl-carousel">
 			<div class="hero-slide-item set-bg" data-setbg="assets/img/slider-bg-1.jpg">
 				<div class="hs-text">
-					<h2 class="hs-title-1"><span>Healthy Recipes</span></h2>
+					<h2 class="hs-title-1"><span>Algums fotos da AIESEC TRABS VOLUNTARIOS</span></h2>
 					<h2 class="hs-title-2"><span>from the best chefs</span></h2>
 					<h2 class="hs-title-3"><span>for all the foodies</span></h2>
 				</div>
@@ -21,7 +21,7 @@
 
 
 	<!-- Add section end -->
-	<section class="add-section spad">
+	<section id="faq"class="add-section spad">
 		<div class="container">
 			<div class="add-warp">
 				<div class="add-slider owl-carousel">
@@ -33,7 +33,7 @@
 					<div class="col-lg-4 col-md-5 offset-lg-8 offset-md-7">
 						<div class="add-text text-white">
 							<div class="at-style"></div>
-							<h2>Amazing deserts</h2>
+							<h2>faq</h2>
 							<ul>
 								<li>Easy to make</li>
 								<li>Step by Step Video Tutorial</li>
@@ -50,10 +50,10 @@
 
 
 	<!-- Recipes section -->
-	<section class="recipes-section spad pt-0">
+	<section id="pnt" class="recipes-section spad pt-0">
 		<div class="container">
 			<div class="section-title">
-				<h2>Latest recipes</h2>
+				<h2>Pontos atrativos</h2>
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
@@ -168,16 +168,16 @@
 	<section class="bottom-widgets-section spad">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-6 ftw-warp">
+				<div id="ong"class="col-lg-4 col-md-6 ftw-warp">
 					<div class="section-title">
-						<h3>Top rated recipes</h3>
+						<h3>ONG's parceiras</h3>
 					</div>
-					<ul class="sp-recipes-list">
+					<ul id="exp" class="sp-recipes-list">
 						<li>
 							<div class="rl-thumb set-bg" data-setbg="assets/img/thumb/1.jpg"></div>
 							<div class="rl-info">
-								<span>March 14, 2018</span>
-								<h6>Italian pasta</h6>
+								<span>Casa do artista</span>
+								<h6>Cuidado com artista aposentado</h6>
 								<div class="rating">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
@@ -247,14 +247,14 @@
 				</div>
 				<div class="col-lg-4 col-md-6 ftw-warp">
 					<div class="section-title">
-						<h3>Most liked recipes</h3>
+						<h3>Experiência pelos intercambistas</h3>
 					</div>
 					<ul class="sp-recipes-list">
 						<li>
 							<div class="rl-thumb set-bg" data-setbg="assets/img/thumb/6.jpg"></div>
 							<div class="rl-info">
-								<span>March 14, 2018</span>
-								<h6>Traditional Food</h6>
+								<span>Renata, 20 anos do México</span>
+								<h6>Equipe maravilhosa, fez com que fosse o melhor momento da minha vida</h6>
 								<div class="rating">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
@@ -331,7 +331,7 @@
 							</div>
 						</div>
 						<div class="blog-text">
-							<h5>Italian restaurant Review</h5>
+							<h5>Ultima foto do insta</h5>
 							<span>By Maria Williams</span>
 							<p>Donec quam felis, ultricies nec, pellente sque eu, pretium quis, sem. Nulla conseq uat massa quis enim. </p>
 							<a href="#" class="comment">2 Comments</a>
@@ -345,66 +345,8 @@
 	<!-- Footer widgets section end -->
 
 
-	<!-- Review section end -->
-	<section class="review-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-8 offset-lg-0 offset-md-2">
-					<div class="review-item">
-						<div class="review-thumb set-bg" data-setbg="assets/img/thumb/11.jpg">
-							<div class="review-date">
-								<span>May 04, 2018</span>
-							</div>
-						</div>
-						<div class="review-text">
-							<span>March 14, 2018</span>
-							<h6>Feta Cheese Burgers</h6>
-							<div class="rating">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star is-fade"></i>
-							</div>
-							<div class="author-meta">
-								<div class="author-pic set-bg" data-setbg="assets/img/author.jpg"></div>
-								<p>By Janice Smith</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-8 offset-lg-0 offset-md-2">
-					<div class="review-item">
-						<div class="review-thumb set-bg" data-setbg="assets/img/thumb/12.jpg">
-							<div class="review-date">
-								<span>May 04, 2018</span>
-							</div>
-						</div>
-						<div class="review-text">
-							<span>March 14, 2018</span>
-							<h6>Mozarella Pasta</h6>
-							<div class="rating">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star is-fade"></i>
-							</div>
-							<div class="author-meta">
-								<div class="author-pic set-bg" data-setbg="assets/img/author.jpg"></div>
-								<p>By Janice Smith</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Review section end -->
-
-
 	<!-- Gallery section -->
-	<div class="gallery">
+	<div id="cont" class="gallery">
 		<div class="gallery-slider owl-carousel">
 			<div class="gs-item set-bg" data-setbg="assets/img/instagram/1.jpg"></div>
 			<div class="gs-item set-bg" data-setbg="assets/img/instagram/2.jpg"></div>
