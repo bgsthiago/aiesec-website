@@ -33,7 +33,7 @@
 					<div class="col-lg-4 col-md-5 offset-lg-8 offset-md-7">
 						<div class="add-text text-white">
 							<div class="at-style"></div>
-							<h2>faq</h2>
+							<h2>FAQ</h2>
 							<ul>
 								<li>Easy to make</li>
 								<li>Step by Step Video Tutorial</li>
