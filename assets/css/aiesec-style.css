@@ -556,6 +556,11 @@ ol {
 	z-index: -1;
 }
 
+.faq-list{
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
 /*------------------
   Recipes Section
 ---------------------*/
